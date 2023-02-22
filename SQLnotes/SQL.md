@@ -1,4 +1,6 @@
 # SQL Notes
+(All images below were captured from the course videos)
+
 
 ### Relational Database
 
@@ -183,14 +185,20 @@ Meets the requirements of both 1NF and 2NF.
 Using the 3 tables from 2NF:
 
 ![Image18](https://cdn.discordapp.com/attachments/955109188609114135/1077999381946572851/image.png)
+
 The Name and DOB are independent upon the ID of the spartan. Checked :)
+
 ![Image19](https://cdn.discordapp.com/attachments/955109188609114135/1077999868351631440/image.png)
 
 Primary key is a combination of both columns. Checked :)
+
 ![Image20](https://cdn.discordapp.com/attachments/955109188609114135/1078000349832548372/image.png)
+
 Weapon and Weapon smith depend on Weapon ID but Smithy Location does not depend on Weapon ID.
 So Assign a new ID for weapon Smith.
+
 ![Image21](https://cdn.discordapp.com/attachments/955109188609114135/1078001812147281961/image.png)
+
 Now the table is normalised in 3NF. Checked :)
 
 
